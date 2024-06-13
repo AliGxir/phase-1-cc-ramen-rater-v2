@@ -1,8 +1,14 @@
 // index.js
+
 // Global Variables
 const targetMenu = document.querySelector('#ramen-menu')
 const targetDetail = document.querySelector("#ramen-detail")
 const targetNewRamen = document.querySelector("#new-ramen")
+
+// //After 1s, display the image
+// setTimeout(function(){
+// document.getElementById("shoyuImg").style.display = "block";
+// }, 1000);
 
 // Callbacks
 const handleClick = (ramen) => {
@@ -90,11 +96,8 @@ const main = () => {
   // Invoke addSubmitListener here
   addSubmitListener()
 }
-  
-//document.addEventListener('DOMContentLoaded', function() {
-  main();
-//})
-//only function that is called
+
+main(); // only function to be called, so start with const main
 
 // Export functions for testing
 export {
