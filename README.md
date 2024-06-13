@@ -14,7 +14,7 @@ the frontend for our app.
 
 ## Demo
 
-Use this gif as an example of how the app should work.
+Use this gif as an example of how the app should work.3000
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-mock-cc-ramen-rater/demo-gif.gif)
 
@@ -29,7 +29,7 @@ Use this gif as an example of how the app should work.
 
 ## Endpoints
 
-Your base URL for your API will be: `http://localhost:3000`
+Your base URL for your API will be: `http://localhost:`
 
 The endpoints you may need are:
 
